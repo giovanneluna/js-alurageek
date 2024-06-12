@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": "3aa6",
+      "name": "Manete",
+      "price": "5",
+      "image": "https://img.freepik.com/fotos-premium/menino-no-sofa-com-joysticks-tocando_23-2148880053.jpg?w=2000"
+    },
+    {
+      "id": "96cf",
+      "name": "Manete",
+      "price": "15",
+      "image": "https://img.freepik.com/fotos-premium/menino-no-sofa-com-joysticks-tocando_23-2148880053.jpg?w=2000"
+    },
+    {
+      "id": "e89a",
+      "name": "Manete",
+      "price": "12",
+      "image": "https://img.freepik.com/fotos-premium/menino-no-sofa-com-joysticks-tocando_23-2148880053.jpg?w=2000"
+    },
+    {
+      "id": "e12c",
+      "name": "Manete",
+      "price": "12",
+      "image": "https://img.freepik.com/fotos-premium/menino-no-sofa-com-joysticks-tocando_23-2148880053.jpg?w=2000"
+    }
+  ]
+}

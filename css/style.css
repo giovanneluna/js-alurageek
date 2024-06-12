@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Press+Start+2P&display=swap');
+@import 'header.css';
+@import 'main.css';
+@import 'footer.css';
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none
+}
+
+.all {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

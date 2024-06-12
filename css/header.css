@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem 0px;
+  width: 100%;
+  background-color: #5300c8;
+  box-shadow: 0px 7px 0.9px 0px rgba(0, 0, 0, 0.25);
+  position: relative;
+  max-width: 100%;
+  gap: 0.5rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+
+  color: #E5E5E5;
+  font-family: "Press Start 2P";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1rem;
+}
+
+@media(max-width:800px) {
+  header {
+    width: 100%;
+  }
+}

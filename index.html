@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="all">
+      <header>
+        <div class="logo">
+          <img class="image" src="images/image-1.png" alt="" />
+          <div>AluraGeek</div>
+        </div>
+      </header>
+      <div class="main">
+        <div class="product-section">
+          <div>
+            <h1 class="title">MEUS PRODUTOS:</h1>
+          </div>
+          <div class="product-container">
+            <div class="line" data-list></div>
+          </div>
+        </div>
+
+        <form class="form-container" data-form>
+          <h1 class="title">ADICIONAR PRODUTO:</h1>
+          <input
+            type="text"
+            placeholder="nome..."
+            name="name"
+            minlength="3"
+            required
+            data-name
+          />
+          <input
+            type="number"
+            placeholder="valor..."
+            name="price"
+            required
+            data-price
+          />
+          <input
+            type="url"
+            placeholder="url da imagem..."
+            name="image"
+            required
+            data-image
+          />
+          <div class="buttons">
+            <button type="submit" class="btn-blue">Guardar</button>
+            <button type="reset" class="btn-white">Limpar</button>
+          </div>
+        </form>
+      </div>
+      <footer>
+        <div class="footer-container">
+          <div class="footer-logo">
+            <img src="images/heart.png" alt="" />
+            <h1 class="footer-title">AluraGeek</h1>
+          </div>
+          <p class="footer-description">
+            © 2024 AluraGeek. Desenvolvido por Giovanne T6 - One.
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script src="js/createProduct.js" type="module"></script>
+    <script src="js/showProducts.js" type="module"></script>
+    <script src="js/removeProduct.js" type="module"></script>
+  </body>
+</html>
